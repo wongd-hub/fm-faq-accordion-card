@@ -19,10 +19,13 @@ export default function FaqItem(props) {
 
     return (
         <div className="faq-item">
-            <div className="faq-item__first-line">
+            <div 
+                className="faq-item__first-line"
+                onClick={() => setDisplayed(!displayed)} 
+            >
                 <p 
                     className="faq-item__first-line__title"
-                    style={displayed ? { fontWeight: 700 } : { fontWeight: 400 }}    
+                    style={displayed ? { fontWeight: 700 } : { fontWeight: 400 }} 
                 >
                     {props.title}
                 </p>
@@ -30,7 +33,6 @@ export default function FaqItem(props) {
                     className="faq-item__first-line__chevron"
                     variants={chevVariants}
                     animate={displayed ? 'open' : 'closed'}
-                    onClick={() => setDisplayed(!displayed)}
                 >
                     <Image 
                         className="faq-item__first-line__chevron__img"

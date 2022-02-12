@@ -64,6 +64,15 @@ a {
 }
 
 .image {
-  
+  position: relative;
+
+  &__box {
+    position: absolute;
+  }
+
+  &__desktop {
+    position: absolute;
+  }
+
 }
 

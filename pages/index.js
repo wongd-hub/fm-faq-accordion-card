@@ -71,7 +71,18 @@ export default function Home() {
       <main>
         <div className="card-container">
           <div className="image">
-
+            <div className="image__box">
+              <Image
+                src={boxImg}
+                alt=""
+              />
+            </div>
+            <div className="image__desktop">
+              <Image
+                src={desktopImg}
+                alt=""
+              />
+            </div>
           </div>
           <div className="faq-items">
             <h1>FAQ</h1>
