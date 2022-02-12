@@ -31,7 +31,7 @@ body {
 
 .container {
   position: relative;
-  padding: 4rem;
+  padding: 4rem 6rem;
 }
 
 a {
@@ -65,13 +65,22 @@ a {
 
 .image {
   position: relative;
+  overflow: hidden;
+  background: url('../static/assets/bg-pattern-desktop.svg') no-repeat;
+  background-position: 118% 60%;
+  background-size: 200%;
 
   &__box {
     position: absolute;
+    left:-120px;
+    top: 180px;
+    z-index: 10;
   }
 
   &__desktop {
     position: absolute;
+    left: -70px;
+    top: 50px;
   }
 
 }

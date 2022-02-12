@@ -69,14 +69,16 @@ export default function Home() {
       <Notification isDisplayed={unsupported} />
 
       <main>
+
         <div className="card-container">
+          <div className="image__box">
+            <Image
+              src={boxImg}
+              alt=""
+            />
+          </div>
           <div className="image">
-            <div className="image__box">
-              <Image
-                src={boxImg}
-                alt=""
-              />
-            </div>
+
             <div className="image__desktop">
               <Image
                 src={desktopImg}
