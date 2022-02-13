@@ -13,9 +13,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [Author](#author)
 
 ## Overview
-### Screenshot
-
-![](/assets/Screen Shot 2022-02-13 at 11.26.16 am.png)
 
 ### Links
 
