@@ -15,7 +15,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 ## Overview
 ### Screenshot
 
-![](/static/assets/Screen Shot 2022-02-13 at 11.26.16 am.png)
+![](/assets/Screen Shot 2022-02-13 at 11.26.16 am.png)
 
 ### Links
 
