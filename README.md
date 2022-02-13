@@ -14,6 +14,10 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ## Overview
 
+### Screenshot
+
+![](./static/assets/ScreenShot2022-02-13at11.26.16am.png)
+
 ### Links
 
 - Solution URL: [GitHub](https://github.com/wongd-hub/fm-faq-accordion-card)
