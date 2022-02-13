@@ -51,6 +51,10 @@
 
 @media only screen and (max-width: 375px) {
     .faq-item {
-        width: 20rem;
+        width: 85%;
+        margin: 0 auto;
+        font-size: calc(13rem / 16);
+
+    
     }
 }

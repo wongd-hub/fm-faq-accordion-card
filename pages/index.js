@@ -72,16 +72,19 @@ export default function Home() {
 
         <div className="card-container">
           <div className="image__box">
-            <Image
-              src={boxImg}
-              alt=""
-            />
+            {
+              vsize[0] > 375 ? (
+                <Image
+                  src={boxImg}
+                  alt=""
+                />
+              ) : (<></>)
+            }
           </div>
           <div className="image">
-
             <div className="image__desktop">
               <Image
-                src={desktopImg}
+                src={vsize[0] > 375 ? desktopImg : mobileImg}
                 alt=""
               />
             </div>

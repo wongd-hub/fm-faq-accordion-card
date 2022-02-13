@@ -67,7 +67,7 @@ a {
   position: relative;
   overflow: hidden;
   background: url('../static/assets/bg-pattern-desktop.svg') no-repeat;
-  background-position: 118% 60%;
+  background-position: 135% 60%;
   background-size: 200%;
 
   &__box {
@@ -85,3 +85,56 @@ a {
 
 }
 
+@media only screen and (max-width: 375px) {
+  html,
+  body {
+    overflow: visible;
+    
+  }
+
+  .container {
+    position: relative;
+    padding: 4rem 1.5rem;
+  }
+
+  .card-container {
+    height: fit-content;
+    // display: flex;
+    // flex-direction: column;
+    grid-template: 8rem 1fr / 1fr;
+    margin-top: 4rem;
+  }
+
+  .faq-items {
+    grid-area: 2 / 1 / span 1 / span 1;
+
+    & > h1 {
+      font-size: 2rem;
+      text-align: center;
+      margin-top: 0;
+    }
+  }
+
+  .image {
+    position: relative;
+    grid-area: 1 / 1 / span 1 / span 1;
+    overflow: visible;
+    background: url('../static/assets/bg-pattern-mobile.svg') no-repeat;
+    width: 100%;
+    height: 100%;
+    // height: 100%;
+    background-position: center top;
+    background-size: 80%;
+  
+    &__desktop {
+      width: fit-content;
+      position: relative;
+      left: 0;
+      margin: 0 auto;
+      // left: 13%;
+      top: -95px;
+    }
+  
+  }
+
+}
